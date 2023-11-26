@@ -7,10 +7,6 @@ body {
     text-decoration: none;
   }
   
-  li{
-    list-style: none;
-  }
-
    .container{
     width:1170px;
     padding:15px;
