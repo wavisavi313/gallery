@@ -1,35 +1,45 @@
 .header{
-    font-size: 40;
- }
+  font-size: 100px;
+  font-weight: bold;
+  font-family: "Arial", Helvetica, sans-serif;
+}
 
 .header-list{
-    font-size: 40;
-    float: right;
- }   
-    
+  font-size: 60px;
+  float: right;
+  font-weight: bold;
+  font-family: "Arial", Helvetica, sans-serif;
+}   
+  
 body {
-    margin: 0;
-    font-family: "Hiragino Kaku Gothic ProN";
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-   .container{
-    width:20px;
-    padding:70px;
-    margin:0 auto;
-  }
-  
-  .top-wrapper{
-    padding-top:350px;
-    padding-bottom:350px;
-    background-image:url(https://github.com/wavisavi313/gallery/blob/main/kabuki.jpg?raw=true);
-    color:black;
-    background-size:cover;
-  }
-
-  h1 {
-    margin: 0;
+  margin: 0;
+  font-size: 60px;
+  font-family: "Arial", Helvetica, sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
+
+img{
+  width:90%;
+  height:90%;
+  margin: 1px 30px 0px 60px;
+}
+ .container{
+  width:1090px;
+  margin:0 auto;
+}
+
+.top-wrapper{
+  margin: 10px 30px 30px 30px;
+  color:black;
+  background-size:cover;
+}
+
+h1 {
+  margin: 0;
+}
+
+ 
+  
