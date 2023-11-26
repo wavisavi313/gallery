@@ -1,3 +1,22 @@
-.title {
-    color: #02ccba;
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+   .container{
+    width:1170px;
+    padding:15px;
+    margin:0 auto;
+  }
+  
+  .top-wrapper{
+    padding-top:180px;
+    padding-bottom:100px;
+    background-image:url(https://github.com/wavisavi313/gallery/blob/main/kabuki.jpg?raw=true);
+    color:white;
+    background-size:cover;
   }
