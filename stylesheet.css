@@ -14,8 +14,8 @@ body {
   }
   
   .top-wrapper{
-    padding-top:1px;
-    padding-bottom:1px;
+    padding-top:700px;
+    padding-bottom:700px;
     background-image:url(https://github.com/wavisavi313/gallery/blob/main/kabuki.jpg?raw=true);
     color:white;
     background-size:cover;
