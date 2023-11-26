@@ -1,6 +1,11 @@
 .header{
     font-size:40;
+ }
 
+.header-logo{
+    font-size:40;
+ }   
+    
 body {
     margin: 0;
     font-family: "Hiragino Kaku Gothic ProN";
