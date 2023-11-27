@@ -4,24 +4,43 @@
     <meta charset="utf-8">
     <title>WAVISAVI</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <div class="header">SOTA <span class="small-font"> /ILLUSTRATOR JPN　★VIVID ANIME WORKS★</span></div>
-  </div>
-  </div>
-</head>
-  <body>
-    <img src="https://github.com/wavisavi313/gallery/blob/main/kabuki.jpg?raw=true">
-    <div class="top-wrapper">
-      <div class="container">
-      <h1>WORKS</h1>
-      <h1>INSTAGRAM</h1>
-      <h1>X</h1>
-      <h1>Contact</h1>
-      </div>
-    </div>
-    
-    <footer class="footer">
-      <img src="https://github.com/wavisavi313/gallery/blob/main/tori.JPG?raw=true">
-    </footer>
-  </body>
+    <div class="header">SOTA <span class="small-font"> /ILLUSTRATOR JPN ★VIVID ANIME WORKS★</span></div>
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <img src="https://github.com/wavisavi313/gallery/blob/main/kabuki.jpg?raw=true">
+        </div>
+        <div class="mySlides">
+            <img src="https://github.com/wavisavi313/gallery/blob/main/tori.JPG?raw=true">
+        </div>
+        <!-- さらに他の画像を追加 -->
 
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) { slideIndex = 1 }
+                slides[slideIndex - 1].style.display = "block";
+                setTimeout(showSlides, 2000); // 2秒ごとにスライドを切り替える
+            }
+        </script>
+    </div>
+    <div class="top-wrapper">
+        <div class="container">
+            <h1>WORKS</h1>
+            <h1>INSTAGRAM</h1>
+            <h1>X</h1>
+            <h1>Contact</h1>
+        </div>
+    </div>
+    <footer class="footer">
+        <img src="https://github.com/wavisavi313/gallery/blob/main/tori.JPG?raw=true">
+    </footer>
+</body>
 </html>
