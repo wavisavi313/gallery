@@ -32,8 +32,8 @@ img{
   margin: 1px 30px 50px 60px;
 }
  .container{
-  width:1300px; /*項目の横位置修正*/
-  margin:0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .top-wrapper{
@@ -46,10 +46,3 @@ h1 {
   margin: 0;
 }
 
-footer img{
-  width: 350px; /* 画像の横幅を調整 */
-  height: auto; /* 高さは自動調整 */
-  float: right;
-  margin-top: 10px;
-  margin-right: 63px;
-}
