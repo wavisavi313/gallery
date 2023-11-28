@@ -1,9 +1,10 @@
 .header{
-  font-size:140px;
+  font-size:150px;
   font-weight: bold;
   font-family: "Impact", sans-serif;
   padding-top:20px  30px;
   color:white;
+  margin-left: 10px;
 }
 
 .header-list{
@@ -46,7 +47,9 @@ h1 {
 }
 
 footer img{
-  width: 180px; /* 画像の横幅を調整 */
+  width: 350px; /* 画像の横幅を調整 */
   height: auto; /* 高さは自動調整 */
-  float:right;
+  float: right;
+  margin-top: 10px;
+  margin-right: 30px;
 }
