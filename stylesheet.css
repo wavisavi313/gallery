@@ -27,8 +27,8 @@ body {
 }
 
 img{
-  width:90%;/*写真の横幅*/
-  height:90%;/*写真の縦*/
+  width:100%;/*写真の横幅*/
+  height:100%;/*写真の縦*/
   margin: 1px 30px 50px 60px;
 }
  .container{
