@@ -24,7 +24,7 @@ body {
 .body-img img {
   width: 45%; /* 画像の横幅 */
   height: auto; /* 画像の縦幅は自動調整 */
-  margin: 30px; /* 画像の間隔調整 */
+  margin: 15px; /* 画像の間隔調整 */
   display: inline-block; /* 画像を横並びにする */
   box-sizing: border-box; /* ボックスサイズを変更してマージンが要素のサイズに含まれるようにする */
 }
