@@ -1,25 +1,30 @@
-.header img {
-  width: 400px; /* 画像の横幅を調整 */
-  height: auto; /* 高さは自動調整 */
-  display: block; /* ブロック要素として扱い、横幅を設定 */
-  margin: 10px auto 20px; /* 上部の余白、左右は自動中央寄せ */
-  
-}
-
-.top-wrapper {
-  font-family: "Impact", sans-serif;
-  margin: 50px auto; /* 上部の余白、左右は自動中央寄せ */
-  color: white;/* HANAFUDA色文字 */
-  background-color:black;/* HANAFUDA背景 */
-  background-size: cover;
-  text-align: center; /* テキストを中央寄せにする */
-}
-
 body {
   margin: 0;
-  font-size: 15px;/* HANAFUDAサイズ */
+  font-size: 50px;
   font-family: "Impact", sans-serif;
   background-color: black; /* 全体背景を黒に設定 */
 }
 
+.header img {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 10px auto 20px;
+}
 
+.top-wrapper {
+  font-family: "Impact", sans-serif;
+  margin: 50px auto;
+  color: white;
+  background-color: black;
+  background-size: cover;
+  text-align: center;
+}
+
+.body-img img {
+  width: 45%; /* 画像の横幅 */
+  height: auto; /* 画像の縦幅は自動調整 */
+  margin: 10px; /* 画像の間隔調整 */
+  display: inline-block; /* 画像を横並びにする */
+  box-sizing: border-box; /* ボックスサイズを変更してマージンが要素のサイズに含まれるようにする */
+}
