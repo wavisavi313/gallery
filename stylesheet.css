@@ -29,6 +29,11 @@ img{ /* スライドショーの画像サイズ配置調整 */
   margin:0 auto;
 }
 
+.container a {
+ color: white;
+ text-decoration: none;
+}
+
 .top-wrapper{
   margin: 10px 30px 30px 30px;
   color:white;
