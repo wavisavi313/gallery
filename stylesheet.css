@@ -4,7 +4,15 @@
   font-family: "Impact", sans-serif;
   padding-top:20px  30px;
   color:white;
-  margin-left: 10px;
+  margin-left: 15px;
+}
+
+.header img {
+  width: 500px;
+  height: auto;
+  display: block;
+  margin: 0px auto 0px;
+  float:right;
 }
   
 body { /*項目のサイズ配置調整*/
@@ -25,7 +33,7 @@ img{ /* スライドショーの画像サイズ配置調整 */
   text-align: center;
 }
  .container{
-  width:1300px; /*項目の横位置修正*/
+  width:1250px; /*項目の横位置修正*/
   margin:0 auto;
 }
 
