@@ -29,4 +29,5 @@ body {
   margin: 20px; /* 画像の間隔調整 */
   display: inline-block; /* 画像を横並びにする */
   box-sizing: border-box; /* ボックスサイズを変更してマージンが要素のサイズに含まれるようにする */
+  padding:0px 0px 0px 60px;
 }
