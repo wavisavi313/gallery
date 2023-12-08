@@ -16,8 +16,8 @@ body { /*項目のサイズ配置調整*/
 }
 
 img{ /* スライドショーの画像サイズ配置調整 */
-  width:120%;/*写真の横幅*/
-  height:120%;/*写真の縦*/
+  width:50%;/*写真の横幅*/
+  height:50%;/*写真の縦*/
   margin: 1px 30px 50px 60px;
   text-align: center;
 }
