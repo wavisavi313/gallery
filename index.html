@@ -1,67 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>WAVISAVI</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        
+        <div class="header">
+            <img src="https://github.com/wavisavi313/gallery/blob/main/fulllogo.png?raw=true">
+        </div>
+    
+    <div class="slideshow-container">
+      
+      <div class="mySlides">
+        <img src="https://github.com/wavisavi313/gallery/blob/main/1.png?raw=true">
+      </div>
 
-.header img {
-  width: 1000px;
-  height: auto;
-  display: block;
-  margin: 10px auto 10px;
-  float:left;
-  padding:0% 0% 0% 3%;
-}
-  
-.container details summary{
-  font-family: "Impact", sans-serif;
-  font-size:100px;
-  color: white;
-  margin: 0;
-  background-color: black;
-  cursor: pointer; /* ポインターの形状を変更して、クリック可能であることを示す */
-}
+      <div class="mySlides">
+        <img src="https://github.com/wavisavi313/gallery/blob/main/32W.jpg?raw=true">
+      </div>
+      
+      <div class="mySlides">
+        <img src="https://github.com/wavisavi313/gallery/blob/main/14W.jpg?raw=true">
+      </div>
+      
+      <div class="mySlides">
+            <img src="https://github.com/wavisavi313/gallery/blob/main/2.png?raw=true">
+      </div>
+      
+      <div class="mySlides">
+            <img src="https://github.com/wavisavi313/gallery/blob/main/2.jpg?raw=true">
+      </div>
+      
+      <div class="mySlides">
+        <img src="https://github.com/wavisavi313/gallery/blob/main/30W.jpg?raw=true">
+      </div>
 
-.container summary::-webkit-details-marker {
-  display: none;
-}
+      <div class="mySlides">
+        <img src="https://github.com/wavisavi313/gallery/blob/main/17W.png?raw=true">
+      </div>
 
-.container summary {
-  list-style: none;
-}
+      <div class="mySlides">
+        <img src="https://github.com/wavisavi313/gallery/blob/main/16W.jpg?raw=true">
+      </div>
 
-body { /*項目のサイズ配置調整*/
-  margin: 0;
-  font-size:50px;
-  font-family: "Impact", sans-serif;
-  background-color: black;
-}
+      <div class="mySlides">
+        <img src="https://github.com/wavisavi313/gallery/blob/main/21W.png?raw=true">
+      </div>
 
-img{ /* スライドショーの画像サイズ配置調整 */
-  width:93%;/*写真の横幅*/
-  height:93%;/*写真の縦*/
-  margin: 1px 30px 50px 60px;
-  text-align: center;
-}
- .container{
-  padding:0% 0% 0% 3%; /*項目の横位置修正*/
-  margin:0 auto;
-}
 
-.container a {
- color: white;
- text-decoration: none;
-}
+      <div class="mySlides">
+        <img src="https://github.com/wavisavi313/gallery/blob/main/15W.jpg?raw=true">
+      </div>
 
-.top-wrapper{
-  margin: 10px 30px 30px 30px;
-  color:white;
-  background-size:cover;
-}
 
-h1 {
-  margin: 0;
-}
+      <div class="mySlides">
+        <img src="https://github.com/wavisavi313/gallery/blob/main/28W.png?raw=true">
+      </div>
 
-footer img{ /*toriキャラの設定*/
-  width: 200px; /* 画像の横幅を調整 */
-  height: auto; /* 高さは自動調整 */
-  float: right;
-  margin-top: 1px;
-  margin-right: 0px;
-}
+      <div class="mySlides">
+        <img src="https://github.com/wavisavi313/gallery/blob/main/25W.png?raw=true">
+      </div>
+
+      <div class="mySlides">
+          <img src="https://github.com/wavisavi313/gallery/blob/main/45W.png?raw=true">
+      </div>
+      
+      <div class="mySlides">
+        <img src="https://github.com/wavisavi313/gallery/blob/main/43W.png?raw=true">
+      </div>
+
+      <div class="mySlides">
+        <img src="https://github.com/wavisavi313/gallery/blob/main/19W.png?raw=true">
+      </div>
+    
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) { slideIndex = 1 }
+                slides[slideIndex - 1].style.display = "block";
+                setTimeout(showSlides, 1250); // 2秒ごとにスライドを切り替える
+            }
+        </script>
+    </div>
+    <div class="top-wrapper">
+        <div class="container">
+            <details>
+            <summary>GALLERY</summary>
+            <h1><a href="index works.html">WORKS 1</a></h1>
+            <h1><a href="index works②.html">WORKS 2</a></h1>
+        </div>
+
+        <div class="container">
+            <h1><a href="https://instagram.com/sota7321?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">INSTAGRAM</a></h1>
+            <h1><a href="https://twitter.com/sota7321">X</a></h1>
+        </div>
+    </div>
+    <footer class="footer">
+        <img src="https://github.com/wavisavi313/gallery/blob/main/tori2.jpg?raw=true">
+    </footer>
+</body>
+</html>
