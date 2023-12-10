@@ -1,6 +1,6 @@
 
 .header img {
-  width: 900px;
+  width: 1000px;
   height: auto;
   display: block;
   margin: 10px auto 10px;
@@ -8,6 +8,23 @@
   padding:0% 0% 0% 3%;
 }
   
+.container details summary{
+  font-family: "Impact", sans-serif;
+  font-size:100px;
+  color: white;
+  margin: 0;
+  background-color: black;
+  cursor: pointer; /* ポインターの形状を変更して、クリック可能であることを示す */
+}
+
+.container summary::-webkit-details-marker {
+  display: none;
+}
+
+.container summary {
+  list-style: none;
+}
+
 body { /*項目のサイズ配置調整*/
   margin: 0;
   font-size:50px;
@@ -42,7 +59,7 @@ h1 {
 }
 
 footer img{ /*toriキャラの設定*/
-  width: 250px; /* 画像の横幅を調整 */
+  width: 200px; /* 画像の横幅を調整 */
   height: auto; /* 高さは自動調整 */
   float: right;
   margin-top: 1px;
