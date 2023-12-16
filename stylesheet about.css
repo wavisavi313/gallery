@@ -1,5 +1,4 @@
-
-body {
+body{
   font-family: "Impact", sans-serif;
   margin: 1px auto;
   font-size: 70px;
@@ -8,6 +7,24 @@ body {
   text-align: center;
 }
 
+h2{
+  font-size: 30px;
+}
+
+a, h2 a {
+  color: white; /* リンクのデフォルトの色を白に設定 */
+  text-decoration: none; /* リンクの下線をなくす */
+}
+
+/* リンクがクリックされたときのスタイル */
+a:visited, h2 a:visited {
+  color: white; /* 訪れたリンクの色も白に設定 */
+}
+
+/* マウスオーバー時のスタイル */
+a:hover, h2 a:hover {
+  color: white; /* マウスがリンク上にあるときの色を白に設定 */
+}
 .body-img img{
   margin: 1px 30px 50px 60px;
   text-align: center;
@@ -29,3 +46,4 @@ body {
 .japanese-figcaption{
   margin-bottom: 30px;
 }
+
