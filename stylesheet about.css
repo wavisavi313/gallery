@@ -1,4 +1,3 @@
-
 body {
   font-family: "Impact", sans-serif;
   margin: 20px auto;
@@ -11,17 +10,21 @@ body {
 .body-img img{
   margin: 1px 30px 50px 60px;
   text-align: center;
+  width:70%;
+}
+
+.japanese-figcaption, .english-figcaption{
+  color:whitesmoke;
+  font-size:24px;
+  float:center;
   width:50%;
+  margin:0 auto;
+}
+
+.japanese-figcaption p, .english-figcaption p{
+  margin: 5px 0;
 }
 
 .japanese-figcaption{
-  color:whitesmoke;
-  font-size:30px;
-  float:center;
+  margin-bottom: 30px;
 }
-
-.english-figcaption{
-  color:red;
-  font-size:40px;
-}
-
