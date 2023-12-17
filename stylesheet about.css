@@ -1,49 +1,62 @@
-body{
+/* stylesheet about.css */
+
+body {
   font-family: "Impact", sans-serif;
   margin: 1px auto;
   font-size: 70px;
   color: white;
   background-color: black;
-  text-align: center;
 }
 
-h2{
+.header {
+  text-align: center; /* .header内の要素を中央に寄せる */
+}
+
+.header img {
+  width: 30%;
+  display: block; /* ブロック要素に変更 */
+  margin: 5px auto 1px auto; /* 画像を中央に寄せる */
+}
+
+h1 {
   font-size: 30px;
-}
-
-a, h2 a {
-  color: white; /* リンクのデフォルトの色を白に設定 */
-  text-decoration: none; /* リンクの下線をなくす */
-}
-
-/* リンクがクリックされたときのスタイル */
-a:visited, h2 a:visited {
-  color: white; /* 訪れたリンクの色も白に設定 */
-}
-
-/* マウスオーバー時のスタイル */
-a:hover, h2 a:hover {
-  color: white; /* マウスがリンク上にあるときの色を白に設定 */
-}
-.body-img img{
-  margin: 1px 30px 50px 60px;
   text-align: center;
-  width:70%;
 }
 
-.japanese-figcaption, .english-figcaption{
-  color:whitesmoke;
-  font-size:25px;
-  float:center;
-  width:70%;
-  margin:0 auto;
+a, h1 a {
+  color: white;
+  text-decoration: none;
 }
 
-.japanese-figcaption p, .english-figcaption p{
+a:visited, h2 a:visited {
+  color: white;
+}
+
+a:hover, h2 a:hover {
+  color: red;
+}
+
+.body-img img {
+  margin: 1px auto 50px auto;
+  width: 83%;
+}
+
+.japanese-figcaption, .english-figcaption {
+  color: whitesmoke;
+  font-size: 30px;
+  width: 83%;
+  margin: 0 auto;
+}
+
+.japanese-figcaption p, .english-figcaption p {
   margin: 5px 0;
 }
 
-.japanese-figcaption{
-  margin-bottom: 30px;
+.japanese-figcaption {
+  margin-bottom: 40px;
+}
+
+.english-figcaption {
+  margin-bottom: 100px;
 }
 
