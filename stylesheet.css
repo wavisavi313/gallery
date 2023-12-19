@@ -43,18 +43,20 @@ img{ /* スライドショーの画像サイズ配置調整 */
   margin:0 auto;
 }
 
+.container h2 {
+  color: red; /* フォントカラーを赤に設定 */
+}
+
 .container a {
- color: white;
+ color:whitesmoke;
  text-decoration: none;
 }
 
-.top-wrapper{
-  margin: 10px 30px 30px 30px;
-  color:white;
-  background-size:cover;
+h1 {
+  margin: 0;
 }
 
-h1 {
+h2 {
   margin: 0;
 }
 
