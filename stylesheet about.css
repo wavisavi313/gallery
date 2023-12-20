@@ -15,16 +15,16 @@ body {
 .header img {
   width: 30%;
   display: block; /* ブロック要素に変更 */
-  margin: 5px auto 1px auto; /* 画像を中央に寄せる */
+  margin: 5px auto 15px auto; /* 画像を中央に寄せる */
 }
 
 h1 {
   font-size: 30px;
-  text-align: center;
+  text-align: left;
 }
 
 a, h1 a {
-  color: white;
+  color: pink;
   text-decoration: none;
 }
 
@@ -60,4 +60,5 @@ a:hover, h2 a:hover {
 .english-figcaption {
   margin-bottom: 100px;
 }
+
 
