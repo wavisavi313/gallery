@@ -3,6 +3,7 @@
     <meta charset="utf-8">
     <title>WAVISAVI</title>
     <link rel="stylesheet works" href="stylesheet works.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
     <div class="header">
         <img src="https://github.com/wavisavi313/gallery/blob/main/redlogo.png?raw=true">
@@ -73,6 +74,18 @@
         <img src="https://github.com/wavisavi313/gallery/blob/main/2W.jpg?raw=true" alt="Image 2">
         <img src="https://github.com/wavisavi313/gallery/blob/main/1W.jpg?raw=true" alt="Image 1">
 
+
+        <footer class="footer" id="jumpTop">
+            <img src="https://github.com/wavisavi313/gallery/blob/main/tori2.jpg?raw=true">
+        </footer>        
+
+    <script>
+        $(document).ready(function() {
+            $('#jumpTop').click(function () {
+                $('html, body').animate({ scrollTop: 0 }, 'slow');
+            });
+        });
+    </script>
 </body>
 
 
