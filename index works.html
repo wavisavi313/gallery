@@ -82,14 +82,15 @@
 
         <footer class="footer" id="jumpTop">
             <img src="https://github.com/wavisavi313/gallery/blob/main/pagetop.png?raw=true">
-               
         </footer>        
         
     <script>
         $(document).ready(function() {
          $('.body-img img').on('load', function(){
+          setTimeout(function(){
             $('.loading-container').fadeOut('slow');
-         });
+          }, 3000); 
+        });
           
         $('#jumpTop').click(function () {
                 $('html, body').animate({ scrollTop: 0 }, 'slow');
@@ -97,8 +98,6 @@
         });
     </script>
 </body>
-
-
 
 
 
