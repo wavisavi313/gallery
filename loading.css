@@ -11,7 +11,18 @@
   z-index: 9999;
 }
 
+@keyframes colorChange {
+  from {
+    color: white; /* 初期状態の色（白） */
+  }
+  to {
+    color: red; /* 最終状態の色（赤） */
+  }
+}
+
 .loading-text {
-  color: white;
-  font-size: 24px;
+  animation: colorChange 3s infinite alternate; /* アニメーションを3秒かけて実行し、無限に繰り返す */
+  font-family: 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 70px;
 }
