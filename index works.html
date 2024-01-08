@@ -4,6 +4,13 @@
     <title>WAVISAVI</title>
     <link rel="stylesheet works" href="stylesheet works.css">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="loading.css">
+</head>
+
+<body>
+    <div class="loading-container">
+       <div class="loading-text">Loading...</div> 
+    </div>    
 
     <div class="header">
         <img src="https://github.com/wavisavi313/gallery/blob/main/redlogo.png?raw=true">
@@ -14,8 +21,6 @@
     </div>
     
 </div>
-
-<body>
 
     <div class="body-img">
         <img src="https://github.com/wavisavi313/gallery/blob/main/48W.png?raw=true" alt="Image 48">
@@ -76,14 +81,18 @@
 
 
         <footer class="footer" id="jumpTop">
-            <img src="https://github.com/wavisavi313/gallery/blob/main/tori2.jpg?raw=true">
+            <img src="https://github.com/wavisavi313/gallery/blob/main/pagetop.png?raw=true">
         </footer>        
-
+        
     <script>
         $(document).ready(function() {
-            $('#jumpTop').click(function () {
+         $('.body-img img').on('load', function(){
+            $('.loading-container').fadeOut('slow');
+         });
+          
+        $('#jumpTop').click(function () {
                 $('html, body').animate({ scrollTop: 0 }, 'slow');
-            });
+         });
         });
     </script>
 </body>
