@@ -31,3 +31,11 @@ body {
   box-sizing: border-box; /* ボックスサイズを変更してマージンが要素のサイズに含まれるようにする */
   padding:0px 0px 0px 10px;
 }
+
+footer img{ /*toriキャラの設定*/
+  width: 10%; /* 画像の横幅を調整 */
+  height: auto; /* 高さは自動調整 */
+  float: right;
+  margin-top: 1px;
+  margin-right: 0px;
+}
