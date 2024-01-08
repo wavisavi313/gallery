@@ -4,11 +4,18 @@
     <meta charset="utf-8">
     <title>WAVISAVI</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="loading.css">
   </head>
+
   <body> 
-    <div class="header">
+   <div class="loading-container">
+    <div class="loading-text">Loading...</div>
+   </div>  
+
+   <div class="header">
       <img src="https://github.com/wavisavi313/gallery/blob/main/fulllogo.png?raw=true">
-    </div>
+  </div>
    
     <div class="slideshow-container">  
       
@@ -75,7 +82,14 @@
       </div>
     
         <script>
-            var slideIndex = 0;
+           $(document).ready(function(){
+            $('.mySlides img').on('load',function(){
+             setTimeout(function(){
+              $('.loading-container').fadeOut('slow');
+            }, 3000);
+            });
+                          
+           var slideIndex = 0;
             showSlides();
 
             function showSlides() {
@@ -89,8 +103,10 @@
                 slides[slideIndex - 1].style.display = "block";
                 setTimeout(showSlides, 1250); // 2秒ごとにスライドを切り替える
             }
+          });   
         </script>
     </div>
+    
     <div class="top-wrapper">
         <div class="container">
             <details>
@@ -115,3 +131,7 @@
   <img src="https://github.com/wavisavi313/gallery/blob/main/tori2.jpg?raw=true">
 </footer>
 </html>
+
+
+
+
