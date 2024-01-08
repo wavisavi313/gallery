@@ -22,7 +22,8 @@
 
 .loading-text {
   animation: colorChange 3s infinite alternate; /* アニメーションを3秒かけて実行し、無限に繰り返す */
-  font-family: 'Arial', sans-serif;
+  font-family: "Impact", sans-serif;
   font-weight: 300;
-  font-size: 70px;
+  font-size: 100px;
 }
+
