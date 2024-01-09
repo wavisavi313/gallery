@@ -81,13 +81,34 @@
         <img src="https://github.com/wavisavi313/gallery/blob/main/19W.png?raw=true">
       </div>
     
-        <script>
-           $(document).ready(function(){
-            $('.mySlides img').on('load',function(){
-             setTimeout(function(){
-              $('.loading-container').fadeOut('slow');
+      <script>
+        $(document).ready(function () {
+          $('.mySlides img').on('load', function () {
+            setTimeout(function () {
+              // ローディングが終了したら画面遷移のアニメーション
+              $('.loading-container').animate({
+                left: '100%', // 左から右に移動
+                opacity: 0, // 透明に
+              }, {
+                duration: 1000,
+                step: function (now, fx) {
+                  // step関数を使って途中の色を赤に変更
+                  if (fx.prop === 'left') {
+                    $('body').css('background-color', 'rgb(' + (255 * (1 - now)) + ', 0, 0)');
+                  }
+                },
+                complete: function () {
+                  // アニメーション終了後、画面を真っ黒に
+                  $('body').css('background-color', 'black');
+                  // ローディングコンテナを非表示に
+                  $('.loading-container').fadeOut('slow', function () {
+                    // メインコンテンツを表示
+                    $('.header, .slideshow-container, .top-wrapper').fadeIn('slow');
+                  });
+                }
+              });
             }, 3000);
-            });
+          });
                           
            var slideIndex = 0;
             showSlides();
