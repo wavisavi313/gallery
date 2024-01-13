@@ -33,11 +33,10 @@ body { /*項目のサイズ配置調整*/
 }
 
 img {
-  max-width: 100%; /* 画面の幅いっぱいに広がるように設定 */
-  height: 3000px; /* 画像の高さを具体的な値に指定 */
-  margin: 1px auto 50px auto; /* 余白調整と中央配置 */
-  object-fit: cover; /* アスペクト比を保ちつつ、画像が切り取られる可能性がある */
-}
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  }
  .container{
   padding:0% 0% 0% 3%; /*項目の横位置修正*/
   margin:0 auto;
@@ -48,7 +47,7 @@ img {
 }
 
 .container a {
- color:white;
+ color:red;
  text-decoration: none;
 }
 
