@@ -32,12 +32,11 @@ body { /*項目のサイズ配置調整*/
   background-color: black;
 }
 
-img{ /* スライドショーの画像サイズ配置調整 */
-  width: 110%;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+img {
+  max-width: 100%; /* 画面の幅いっぱいに広がるように設定 */
+  height: 500px; /* 画像の高さを具体的な値に指定 */
+  margin: 1px auto 50px auto; /* 余白調整と中央配置 */
+  object-fit: cover; /* アスペクト比を保ちつつ、画像が切り取られる可能性がある */
 }
  .container{
   padding:0% 0% 0% 3%; /*項目の横位置修正*/
