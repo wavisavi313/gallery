@@ -33,8 +33,10 @@ body { /*項目のサイズ配置調整*/
 }
 
 img{ /* スライドショーの画像サイズ配置調整 */
-  width:200%;/*写真の横幅*/
-  height:200%;/*写真の縦*/
+  width:93%;/*写真の横幅*/
+  height:93%;/*写真の縦*/
+  margin: 1px 30px 50px 60px;
+  text-align: center;
 }
  .container{
   padding:0% 0% 0% 3%; /*項目の横位置修正*/
