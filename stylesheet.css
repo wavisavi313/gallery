@@ -33,10 +33,11 @@ body { /*項目のサイズ配置調整*/
 }
 
 img {
-  position: relative;
+  text-align: center;
   width: 100%;
   min-height: 100vh;
   }
+
  .container{
   padding:0% 0% 0% 3%; /*項目の横位置修正*/
   margin:0 auto;
