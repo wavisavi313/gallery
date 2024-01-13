@@ -32,10 +32,10 @@ body { /*項目のサイズ配置調整*/
   background-color: black;
 }
 
-img {
-  width: auto; /* 横幅は自動調整 */
-  height: 100vh; /* 画面の高さいっぱいに表示 */
-  margin: 1px 0 50px 0; /* 余白調整 */
+img{ /* スライドショーの画像サイズ配置調整 */
+  width:93%;/*写真の横幅*/
+  height:93%;/*写真の縦*/
+  margin: 1px 30px 50px 60px;
   text-align: center;
 }
  .container{
