@@ -33,8 +33,8 @@ body { /*項目のサイズ配置調整*/
 }
 
 img {
-  width: 90%;
-  height: 100vh;
+  width: 100%;
+  height: 90vh;
   margin: 0;
   padding: 0;
   text-align: center;
