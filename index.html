@@ -113,13 +113,16 @@
                 for (i = 0; i < slides.length; i++) {
                     slides[i].style.display = "none";
                 }
-                slideIndex++;
-                if (slideIndex > slides.length) { slideIndex = 1 }
-                slides[slideIndex - 1].style.display = "block";
-                setTimeout(showSlides, 4800); // 2秒ごとにスライドを切り替える
-            }
-          });   
-        </script>
+                 slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        // 以下を変更
+        $(slides[slideIndex - 1]).fadeIn('slow');
+        setTimeout(showSlides, 4800); // 2秒ごとにスライドを切り替える
+      }
+    });
+  </script>
     </div>
     
     <div class="top-wrapper">
