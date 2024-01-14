@@ -32,12 +32,13 @@ body { /*項目のサイズ配置調整*/
   background-color: black;
 }
 
-img{ /* スライドショーの画像サイズ配置調整 */
-  width:100%;/*写真の横幅*/
+img {
+  width: 100%;
   height: 100vh;
   margin: 0;
   padding: 0;
   text-align: center;
+  object-fit: cover; /* アスペクト比を保ちつつ、コンテナにフィットさせる */
 }
 
  .container{
