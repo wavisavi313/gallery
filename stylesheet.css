@@ -10,7 +10,7 @@
   
 .container details summary{
   font-family: "Impact", sans-serif;
-  font-size:140px;
+  font-size:120px;
   color: white;
   margin: 0;
   background-color: black;
@@ -27,7 +27,7 @@
 
 body { /*項目のサイズ配置調整*/
   margin: 0;
-  font-size:70px;
+  font-size:60px;
   font-family: "Impact", sans-serif;
   background-color: black;
 }
