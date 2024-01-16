@@ -22,7 +22,7 @@
   top: -15px;
     /*テキストの形状*/
   color: rgb(168, 249, 28);
-  font-size: 0.7rem;
+  font-size: 5rem;
   letter-spacing: 0.05em;
 }
 
@@ -33,7 +33,7 @@
   position: absolute;
   top: 0;
     /*線の形状*/
-  width: 7px;/*線の太さ調整*/
+  width: 30px;/*線の太さ調整*/
   height: 40px;
   background: rgb(188, 250, 81);
     /*線の動き1.4秒かけて動く。永遠にループ*/
