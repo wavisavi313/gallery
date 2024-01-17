@@ -58,14 +58,14 @@
 /* スマートフォン向けのスクロールダウンスタイル */
 @media only screen and (max-width: 767px) {
   .scrolldown1 {
-    bottom: 50px; /* スマートフォン用の位置調整 */
+    bottom: 100px; /* スマートフォン用の位置調整 */
   }
 
   .scrolldown1 span {
-    font-size: 60px; /* スマートフォン用のフォントサイズ調整 */
+    font-size: 200px; /* スマートフォン用のフォントサイズ調整 */
   }
 
   .scrolldown1::after {
-    width: 30px; /* スマートフォン用の線の太さ調整 */
+    width: 100px; /* スマートフォン用の線の太さ調整 */
   }
 }
