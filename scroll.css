@@ -1,15 +1,13 @@
 @charset "utf-8";
 
 /*========= スクロールダウンのためのCSS ===============*/
-
-/*====== 9-1-1 縦線が動いてスクロールを促す =======*/
-
+/* PC向けのスクロールダウンスタイル */
 /*スクロールダウン全体の場所*/
 .scrolldown1{
     /*描画位置※位置は適宜調整してください*/
   position:absolute;
   left:50%;
-  bottom:100px;
+  bottom:-60px;
   height:1px;
 }
 
@@ -31,14 +29,13 @@
   position: absolute;
   top: 0;
     /*線の形状*/
-  width: 20px;/*線の太さ調整*/
+  width: 10px;/*線の太さ調整*/
   height: 10px;
   background: rgb(204, 219, 179);
     /*線の動き1.4秒かけて動く。永遠にループ*/
   animation: pathmove 1.4s ease-in-out infinite;
   opacity:0;
 }
-
 
 /*高さ・位置・透過が変化して線が上から下に動く*/
 @keyframes pathmove{
@@ -55,5 +52,20 @@
     height:0;
     top:50px;
     opacity: 0;
+  }
+}
+
+/* スマートフォン向けのスクロールダウンスタイル */
+@media only screen and (max-width: 767px) {
+  .scrolldown1 {
+    bottom: 50px; /* スマートフォン用の位置調整 */
+  }
+
+  .scrolldown1 span {
+    font-size: 60px; /* スマートフォン用のフォントサイズ調整 */
+  }
+
+  .scrolldown1::after {
+    width: 30px; /* スマートフォン用の線の太さ調整 */
   }
 }
