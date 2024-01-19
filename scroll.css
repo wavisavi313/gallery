@@ -63,6 +63,7 @@
 
   .scrolldown1 span {
     font-size: 40px; /* スマートフォン用のフォントサイズ調整 */
+    color: yellow;
   }
 
   .scrolldown1::after {
