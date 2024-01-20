@@ -1,0 +1,14 @@
+h1,
+h2 {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(100px);
+  transition: all 1s;
+}
+
+h1.is-show,
+h2.is-show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}
