@@ -24,18 +24,10 @@ body {
 }
 
 .body-img img {
-  width: 43%; /* 画像の横幅 */
+  width: 45%; /* 画像の横幅 */
   height: auto; /* 画像の縦幅は自動調整 */
   margin: 10px; /* 画像の間隔調整 */
   display: inline-block; /* 画像を横並びにする */
   box-sizing: border-box; /* ボックスサイズを変更してマージンが要素のサイズに含まれるようにする */
-  padding:0px 0px 0px 10px;
-}
-
-footer img{ /*toriキャラの設定*/
-  width: 10%; /* 画像の横幅を調整 */
-  height: auto; /* 高さは自動調整 */
-  float: right;
-  margin-top: 1px;
-  margin-right: 0px;
+  padding:0px 0px 0px 100px;
 }
