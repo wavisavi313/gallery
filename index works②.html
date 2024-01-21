@@ -1,23 +1,51 @@
- <head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
     <meta charset="utf-8">
     <title>WAVISAVI</title>
-    <link rel="stylesheet works" href="stylesheet works.css">
-
-    <div class="header">
-        <img src="https://github.com/wavisavi313/gallery/blob/main/redlogo.png?raw=true">
-    </div> 
-
-    <div class="top-wrapper">
-    <h1>REQUEST COLLECTION</h1>
-    </div>
-    
-</div>
+    <link rel="stylesheet" href="stylesheet works.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="loading.css">
+</head>
 
 <body>
+    <div class="loading-container">
+        <div class="loading-text">LOADING...</div>
+    </div>
+
+    <div class="header">
+        <a href="index.html" id="jumpMenu"></a>
+        <img src="https://github.com/wavisavi313/gallery/blob/main/redlogo.png?raw=true">
+    </div>
+
+    <div class="top-wrapper">
+        <h1>REQUEST COLLECTION</h1>
+    </div>
+
     <div class="body-img">
         <img src="https://github.com/wavisavi313/gallery/blob/main/②-1.jpg?raw=true" alt="Image 1">
         <img src="https://github.com/wavisavi313/gallery/blob/main/②-2.jpg?raw=true" alt="Image 2">
+    </div>
+
+    <script>
+        $(document).ready(function() {
+         $('.body-img img').on('load', function(){
+          setTimeout(function(){
+            $('.loading-container').fadeOut('slow');
+          }, 3000); 
+        });
+          
+        $('#jumpMenu').click(function (e) {
+                e.preventDefault(); // リンクのデフォルトの動作をキャンセル
+                window.location.href = "menu.html"; // メニューページにジャンプ
+            });
+        });
+    </script>
+
 </body>
+</html>
+
 
 
 
