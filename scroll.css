@@ -14,12 +14,13 @@
 /*Scrollテキストの描写*/
 .scrolldown1 span{
     /*描画位置*/
-  position: absolute;
-  left:-40px;/*文字と棒の開始距離調整*/
-  top: -50px; /*文字と棒の高さ調整*/
+   position: absolute;
+  left:-65px;/*文字と棒の開始距離調整*/
+  top: -60px; /*文字と棒の高さ調整*/
   color: rgb(246, 247, 242);
-  font-size: 30px;
+  font-size: 50px;
   letter-spacing: 0.05em;
+}
 }
 
 /* 線の描写 */
