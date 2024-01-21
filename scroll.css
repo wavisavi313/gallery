@@ -7,7 +7,7 @@
     /*描画位置※位置は適宜調整してください*/
   position:absolute;
   left:50%;
-  bottom:-100px;
+  bottom:-190px;
   height:1px; 
 }
 
@@ -15,12 +15,11 @@
 .scrolldown1 span{
     /*描画位置*/
    position: absolute;
-  left:-65px;/*文字と棒の開始距離調整*/
-  top: -60px; /*文字と棒の高さ調整*/
-  color: rgb(246, 247, 242);
-  font-size: 50px;
+  left:-95px;/*文字と棒の開始距離調整*/
+  top: -100px; /*文字と棒の高さ調整*/
+  color: rgb(245, 248, 109);
+  font-size: 80px;
   letter-spacing: 0.05em;
-}
 }
 
 /* 線の描写 */
@@ -30,9 +29,9 @@
   position: absolute;
   top: 0;
     /*線の形状*/
-  width: 10px;/*線の太さ調整*/
+  width: 3px;/*線の太さ調整*/
   height: 10px;
-  background: rgb(246, 247, 242);
+  background: rgb(245, 248, 109);
     /*線の動き1.4秒かけて動く。永遠にループ*/
   animation: pathmove 1.4s ease-in-out infinite;
   opacity:0;
@@ -53,21 +52,5 @@
     height:0;
     top:50px;
     opacity: 0;
-  }
-}
-
-/* スマートフォン向けのスクロールダウンスタイル */
-@media only screen and (max-width: 700px) {
-  .scrolldown1 {
-    bottom: 20px; /* スマートフォン用の位置調整 */
-  }
-
-  .scrolldown1 span {
-    font-size: 40px; /* スマートフォン用のフォントサイズ調整 */
-    color: yellow;
-  }
-
-  .scrolldown1::after {
-    width: 5px; /* スマートフォン用の線の太さ調整 */
   }
 }
