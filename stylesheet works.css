@@ -6,7 +6,7 @@ body {
 }
 
 .header img {
-  width: 600px;
+  width: 400px;
   height: auto;
   display: block;
   margin: 40px auto;
@@ -16,7 +16,7 @@ body {
 
 .top-wrapper {
   font-family: "Impact", sans-serif;
-  margin: 50px auto;
+  margin: 1px auto;
   color: white;
   background-color: black;
   background-size: cover;
@@ -24,10 +24,24 @@ body {
 }
 
 .body-img img {
-  width: 45%; /* 画像の横幅 */
+  width: 30%; /* 画像の横幅 */
   height: auto; /* 画像の縦幅は自動調整 */
   margin: 10px; /* 画像の間隔調整 */
   display: inline-block; /* 画像を横並びにする */
   box-sizing: border-box; /* ボックスサイズを変更してマージンが要素のサイズに含まれるようにする */
-  padding:0px 0px 0px 100px;
+  padding:0px;
+}
+
+/* スマホ画面でのスタイル変更 */
+@media only screen and (max-width: 700px) {
+  .body-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .body-img img {
+    width: calc(30% - 20px); /* 画像の幅を30%に変更。marginを考慮して調整 */
+    margin: 10px;
+  }
 }
