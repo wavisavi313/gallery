@@ -1,64 +1,48 @@
-/* stylesheet about.css */
 
 body {
-  font-family: "Impact", sans-serif;
-  margin: 1px auto;
-  font-size: 70px;
   color: white;
   background-color: black;
 }
 
-.header {
-  text-align: center; /* .header内の要素を中央に寄せる */
+.headerlogo{
+float: left;
+ font-size: 60px;
+ margin: 1px 18px 20px; 
+ padding-top: 1px;
+}
+ 
+ul{
+  list-style: none;
+  float: RIGHT;
+  margin: 1px; 
+  font-size: 20px;
+  padding: 20px 20px 1px 5px; /* header項目間の距離調整*/
 }
 
 .header img {
-  width: 30%;
-  display: block; /* ブロック要素に変更 */
-  margin: 5px auto 15px auto; /* 画像を中央に寄せる */
+  position: absolute;
+  width: 50%;
+  top: 250px;
+  left:70px;
+}
+
+.japanese-figcaption, .english-figcaption {
+  color: whitesmoke;
+  position:relative;
+  font-size:20px;
+  width:40%;
+  top:250px;
+  left:700px;
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 20px;
   text-align: left;
 }
 
 a, h1 a {
   color: pink;
   text-decoration: none;
-}
-
-a:visited, h2 a:visited {
-  color: white;
-}
-
-a:hover, h2 a:hover {
-  color: red;
-}
-
-.body-img img {
-  display: block; /* ブロック要素に変更 */
-  margin: 1px auto 50px auto; /* 画像を中央に寄せる */
-  width: 90%;
-}
-
-.japanese-figcaption, .english-figcaption {
-  color: whitesmoke;
-  font-size: 30px;
-  width: 83%;
-  margin: 0 auto;
-}
-
-.japanese-figcaption p, .english-figcaption p {
-  margin: 5px 0;
-}
-
-.japanese-figcaption {
-  margin-bottom: 40px;
-}
-
-.english-figcaption {
-  margin-bottom: 100px;
 }
 
 
