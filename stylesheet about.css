@@ -5,10 +5,11 @@ body {
 }
 
 .headerlogo{
+font-family: "Impact", sans-serif;
 float: left;
- font-size: 60px;
- margin: 1px 18px 20px; 
- padding-top: 1px;
+font-size: 150px;
+margin: 1px 18px 20px; 
+padding-top: 1px;
 }
  
 ul{
@@ -16,23 +17,24 @@ ul{
   float: RIGHT;
   margin: 1px; 
   font-size: 20px;
-  padding: 20px 20px 1px 5px; /* header項目間の距離調整*/
+  padding: 50px 20px 1px 30px; /* header項目間の距離調整*/
 }
 
 .header img {
-  position: absolute;
+  display: block;
+  margin: 130px auto 0;
+  border: 130px solid transparent; /* 上にボーダーを透明で追加 */
+  border-bottom: 0; /* 下のボーダーを解除 */
+  border-radius: 50%;
   width: 50%;
-  top: 250px;
-  left:70px;
 }
 
 .japanese-figcaption, .english-figcaption {
   color: whitesmoke;
-  position:relative;
-  font-size:20px;
-  width:40%;
-  top:250px;
-  left:700px;
+  font-size: 20px;
+  width: 50%;
+  margin: 0 auto; 
+  padding: 1px 50px 1px 0; /* 左側のpaddingを調整 */
 }
 
 h1 {
@@ -44,5 +46,4 @@ a, h1 a {
   color: pink;
   text-decoration: none;
 }
-
 
