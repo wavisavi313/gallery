@@ -17,7 +17,7 @@ ul{
   list-style: none;
   float: RIGHT;
   margin: 1px; 
-  font-size: 20px;
+  font-size: 40px;
   padding: 50px 20px 1px 30px; /* header項目間の距離調整*/
 }
 
@@ -27,7 +27,7 @@ ul{
   border: 130px solid transparent; /* 上にボーダーを透明で追加 */
   border-bottom: 0; /* 下のボーダーを解除 */
   border-radius: 50%;
-  width: 70%;
+  width: 60%;
   padding-bottom: 70px;
 }
 
@@ -43,7 +43,7 @@ ul{
   font-family: 'Noto Serif JP', sans-serif;
   color: whitesmoke;
   font-size: 30px;
-  width: 90%;
+  width: 85%;
   margin: 0 auto; 
   padding: 1px 50px 1px 0; /* 左側のpaddingを調整 */
 }
@@ -57,5 +57,7 @@ a, h1 a {
   color:rgb(252, 115, 115);
   text-decoration: none;
 }
+
+
 
 
