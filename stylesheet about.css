@@ -31,8 +31,9 @@ ul{
 }
 
 .japanese-figcaption, .english-figcaption {
+  font-family: 'Noto Serif JP', sans-serif;
   color: whitesmoke;
-  font-size: 20px;
+  font-size: 25px;
   width: 50%;
   margin: 0 auto; 
   padding: 1px 50px 1px 0; /* 左側のpaddingを調整 */
