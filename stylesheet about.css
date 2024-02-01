@@ -27,8 +27,16 @@ ul{
   border: 130px solid transparent; /* 上にボーダーを透明で追加 */
   border-bottom: 0; /* 下のボーダーを解除 */
   border-radius: 50%;
-  width: 50%;
+  width: 70%;
   padding-bottom: 100px;
+}
+
+.sota-text{
+  font-family: "Impact", sans-serif;
+  font-size: 130px;
+  color:rgb(252, 115, 115);
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .japanese-figcaption, .english-figcaption {
