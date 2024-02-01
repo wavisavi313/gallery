@@ -17,7 +17,7 @@ ul{
   list-style: none;
   float: RIGHT;
   margin: 1px; 
-  font-size: 40px;
+  font-size: 25px;
   padding: 50px 20px 1px 30px; /* header項目間の距離調整*/
 }
 
