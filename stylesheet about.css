@@ -13,10 +13,11 @@ padding-top: 1px;
 }
  
 ul{
+  font-family: "Impact", sans-serif;
   list-style: none;
   float: RIGHT;
   margin: 1px; 
-  font-size: 20px;
+  font-size: 25px;
   padding: 50px 20px 1px 30px; /* header項目間の距離調整*/
 }
 
