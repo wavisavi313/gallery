@@ -28,7 +28,7 @@ ul{
   border-bottom: 0; /* 下のボーダーを解除 */
   border-radius: 50%;
   width: 70%;
-  padding-bottom: 100px;
+  padding-bottom: 70px;
 }
 
 .sota-text{
@@ -43,7 +43,7 @@ ul{
   font-family: 'Noto Serif JP', sans-serif;
   color: whitesmoke;
   font-size: 30px;
-  width: 50%;
+  width: 90%;
   margin: 0 auto; 
   padding: 1px 50px 1px 0; /* 左側のpaddingを調整 */
 }
@@ -54,7 +54,7 @@ h1 {
 }
 
 a, h1 a {
-  color: pink;
+  color:rgb(252, 115, 115);
   text-decoration: none;
 }
 
