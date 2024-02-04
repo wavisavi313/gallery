@@ -29,10 +29,10 @@ body {
 
 .header img {
   float: left;
-  width: 600px;
+  width: 400px;
   height: auto;
   display: block;
-  margin: 40px auto;
+  margin: 20px 0px 0px 10px;
   /*margin: 50px auto 20px;*/
 }
 
@@ -58,4 +58,3 @@ body {
     margin: 10px;
   }
 }
-
