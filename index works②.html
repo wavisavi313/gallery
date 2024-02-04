@@ -1,42 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
     <meta charset="utf-8">
     <title>WAVISAVI</title>
     <link rel="stylesheet" href="stylesheet works.css">
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <link rel="stylesheet" href="loading.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
-</head>
-
-<body>
+  </head>
+  
+  <body>
     <div class="loading-container">
-        <div class="loading-text">LOADING...</div>
-    </div>
-
+       <div class="loading-text">LOADING...</div> 
+    </div>    
+  
+    <div class ="headerlist">
+    <ul>
+    <li><a href="https://instagram.com/sota7321?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">INSTAGRAM</a></li>
+    </ul>
+    
+    <ul>
+      <li><a href="https://twitter.com/sota7321">X</a></li>
+    </ul>
+     
+    <ul>
+    <li><a href="index about.html">Artist</a></li>
+    </ul>
+  
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    </ul>
+  
+  
     <div class="header">
-        <a href="index.html" id="jumpMenu"></a>
-        <img src="https://github.com/wavisavi313/gallery/blob/main/redlogo.png?raw=true">
-    </div>
+      <img src="https://github.com/wavisavi313/gallery/blob/main/redlogo.png?raw=true">
+  </div> 
+  
+  <div class="subtitle">
+    <h1>HANAFUDA COLLECTION</h1>
+  </div>
+  </div>
+    
+  </div>
+  
+    <div class="body-img">
 
-    <div class="top-wrapper">
-        <h1>REQUEST COLLECTION</h1>
-    </div>
-
-   <div class="body-img">
-        <a href="https://github.com/wavisavi313/gallery/blob/main/②-1.jpg?raw=true" data-lightbox="group">
+          <a href="https://github.com/wavisavi313/gallery/blob/main/②-1.jpg?raw=true" data-lightbox="group">
             <img src="https://github.com/wavisavi313/gallery/blob/main/②-1.jpg?raw=true" alt="Image 1" width="250">
-        </a>
+          </a>
 
-        <a href="https://github.com/wavisavi313/gallery/blob/main/②-2.jpg?raw=true" data-lightbox="group">
+          <a href="https://github.com/wavisavi313/gallery/blob/main/②-2.jpg?raw=true" data-lightbox="group">
             <img src="https://github.com/wavisavi313/gallery/blob/main/②-2.jpg?raw=true" alt="Image 2">
-        </a>
-
-    </div>
-
+          </a>    
+</div>
+                  
+        </div>
+  
+        <footer class="footer" id="jumpTop">
+            <img src="https://github.com/wavisavi313/gallery/blob/main/pagetop.png?raw=true">
+        </footer>        
+        
     <script>
         $(document).ready(function() {
          $('.body-img img').on('load', function(){
@@ -45,16 +67,12 @@
           }, 3000); 
         });
           
-        $('#jumpMenu').click(function (e) {
-                e.preventDefault(); // リンクのデフォルトの動作をキャンセル
-                window.location.href = "menu.html"; // メニューページにジャンプ
-            });
+        $('#jumpTop').click(function () {
+                $('html, body').animate({ scrollTop: 0 }, 'slow');
+         });
         });
     </script>
-
-</body>
-</html>
-
+  </body>
 
 
 
