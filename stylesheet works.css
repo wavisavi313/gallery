@@ -5,35 +5,31 @@ body {
   background-color: black; /* 全体背景を黒に設定 */
 }
 
-.headerlogo{
+ul {
   font-family: "Impact", sans-serif;
-  float: left;
-  font-size: 150px;
-  margin: 1px 18px 20px; 
-  padding-top: 1px;
-  }
-   
-  ul{
-    font-family: "Impact", sans-serif;
-    list-style: none;
-    float: RIGHT;
-    margin: 1px; 
-    font-size: 25px;
-    padding: 50px 20px 1px 30px; /* header項目間の距離調整*/
-  }
+  list-style: none;
+  float: right; /* ヘッダーの項目を右寄せにする */
+  margin: 1px;
+  font-size: 25px;
+  padding: 50px 20px 1px 30px; /* header項目間の距離調整 */
+}
 
-  a, h1 a {
-    color:white;
-    text-decoration: none;
-  }
+a, h1 a {
+  color: white;
+  text-decoration: none;
+}
 
 .header img {
   float: left;
   width: 500px;
   height: auto;
   display: block;
-  margin: 20px 0px 0px 10px;
+  margin: 20px 0px 50px 10px;
   /*margin: 50px auto 20px;*/
+}
+
+.body-img {
+  float: left; /* 画像を左寄せにする */
 }
 
 .body-img img {
@@ -42,7 +38,17 @@ body {
   margin: 10px; /* 画像の間隔調整 */
   display: inline-block; /* 画像を横並びにする */
   box-sizing: border-box; /* ボックスサイズを変更してマージンが要素のサイズに含まれるようにする */
-  padding:0px;
+  padding: 0px;
+}
+
+#jumpTop {
+  position: fixed; /* ページ右下に固定 */
+  bottom: 20px; /* 下からの距離 */
+  right: 20px; /* 右からの距離 */
+}
+
+#jumpTop img {
+  width: 100px; /* 画像の幅を変更 */
 }
 
 /* スマホ画面でのスタイル変更 */
@@ -58,3 +64,4 @@ body {
     margin: 10px;
   }
 }
+
