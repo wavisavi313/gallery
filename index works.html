@@ -9,9 +9,7 @@
 </head>
 
 <body>
-  <div class="loading-container">
-     <div class="loading-text">LOADING...</div> 
-  </div>    
+    
 
   <div class ="headerlist">
   <ul>
@@ -272,18 +270,10 @@
           <img src="https://github.com/wavisavi313/gallery/blob/main/pagetop.png?raw=true">
       </footer>        
       
-  <script>
-      $(document).ready(function() {
-       $('.body-img img').on('load', function(){
-        setTimeout(function(){
-          $('.loading-container').fadeOut('slow');
-        }, 3000); 
-      });
-        
+  <script>   
       $('#jumpTop').click(function () {
               $('html, body').animate({ scrollTop: 0 }, 'slow');
        });
-      });
 
       $(window).on('load scroll', function() {
                   var windowHeight = $(window).height();
@@ -298,6 +288,8 @@
                   });
                 });  
 
+  </script>
+</body>
   </script>
 </body>
 
