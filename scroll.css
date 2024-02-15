@@ -4,16 +4,12 @@
 /* PC向けのスクロールダウンスタイル */
 /*スクロールダウン全体の場所*/
 .scrolldown1{
-    /*描画位置※位置は適宜調整してください*/
   position:absolute;
   left:50%;
-  bottom:-190px;
-  height:50px; 
+  bottom:-370px;/*テキストと棒の位置をあわせて変更可能*/
 }
 
-/*Scrollテキストの描写*/
 .scrolldown1 span{
-    /*描画位置*/
    position: absolute;
   left:-95px;/*文字と棒の開始距離調整*/
   top: -100px; /*文字と棒の高さ調整*/
@@ -27,10 +23,10 @@
   content: "";
     /*描画位置*/
   position: absolute;
-  top: 0;
+  top: -300px;
     /*線の形状*/
   width: 3px;/*線の太さ調整*/
-  height: 10px;
+  height: 100px;
   background: rgb(242, 246, 3);
     /*線の動き1.4秒かけて動く。永遠にループ*/
   animation: pathmove 1.4s ease-in-out infinite;
