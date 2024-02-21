@@ -42,9 +42,18 @@ img {
 
 .artistlogo {
   display: block;
-  margin: auto;
-  width: 780px;
+  margin: 100px auto 0;
   padding-top: 250px;
+  width: 700px; /* 画像の幅を指定 */
+  height: 700px; /* 画像の高さを指定 */
+  overflow: hidden; /* 画像の領域外を隠すために必要 */
+}
+
+.artistlogo img {
+  display: block;
+  width: 100%; /* 親要素に合わせて画像の幅を調整 */
+  height: auto; /* 高さは自動調整 */
+  border-radius: 50%; /* 丸く表示するための border-radius */
 }
 
 .sota-text{
