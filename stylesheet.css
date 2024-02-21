@@ -56,13 +56,14 @@ img {
   border-radius: 50%; /* 丸く表示するための border-radius */
 }
 
+
 .sota-text{
   font-family: "Impact", sans-serif;
   font-size: 130px;
   color: whitesmoke;
   padding-bottom: 0;
   margin-bottom: 0;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .japanese-figcaption, .english-figcaption {
@@ -80,6 +81,13 @@ a, h1 a {
   color:white;
   text-decoration: none;
 }
+
+h3 a {
+  color:white;
+  text-decoration: none;
+  font-size: 35px;
+}
+
  .container{
   padding:0% 0% 0% 3%; /*項目の横位置修正*/
   margin:0 auto;
