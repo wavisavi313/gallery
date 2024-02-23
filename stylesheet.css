@@ -18,7 +18,6 @@
   margin: 0 auto; /* 水平方向に中央揃え */
   background-color: black;
   cursor: pointer; /* クリック可能であることを示すカーソルを設定 */
-  text-align: center; /* テキストを中央揃えにする */
 }
 
 .container details summary::-webkit-details-marker {
