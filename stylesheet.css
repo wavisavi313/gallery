@@ -9,6 +9,7 @@
  
 .container {
   width: 100%;
+  margin-bottom: 20px; /* 追加 */
 }
 
 .container details summary {
@@ -22,6 +23,20 @@
 
 .container details summary::-webkit-details-marker {
   display: none; /* ネイティブの開閉アイコンを非表示にする */
+}
+
+.container2{ /* ARTISTのテキスト調整 */
+  font-size: 200px;
+  color: white;
+  margin-top: 20px; /* 変更 */
+}
+
+.artist-title {
+  font-family: "Impact", sans-serif;
+  font-size: 200px;
+  color: white;
+  text-align: center;
+  margin-top: 50px; /* 適切なマージンを調整してください */
 }
 
 body { /*項目のサイズ配置調整*/
