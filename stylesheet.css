@@ -7,15 +7,18 @@
   padding:0;
 }
  
+.container {
+  width: 100%;
+}
+
 .container details summary {
   font-family: "Impact", sans-serif;
   font-size: 200px;
   color: white;
-  margin: 0;
+  margin: 0 auto; /* 水平方向に中央揃え */
   background-color: black;
   cursor: pointer; /* クリック可能であることを示すカーソルを設定 */
-  padding-left: 400px;
-  padding-top: 50px;
+  text-align: center; /* テキストを中央揃えにする */
 }
 
 .container details summary::-webkit-details-marker {
