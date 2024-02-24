@@ -26,7 +26,7 @@
 .container details summary {/* GALLERY ARTIST OSの位置調整 */
   font-family: "Impact", sans-serif;
   font-size: 150px;
-  color: rgb(117, 226, 70);
+  color: rgb(230, 6, 6);
   margin: 0 auto; /* 水平方向に中央揃え */
   background-color: black;
   padding-left: 30px;
@@ -78,7 +78,7 @@ h2 {/* 赤文字フォントの位置サイズ調整 */
 }
 
 .container a {
-  color: rgb(117, 226, 70);
+  color: rgb(24, 139, 30);
   text-decoration: none;
   font-size: 90px; /* 赤字テキストサイズを設定 */
   padding-left: 30px;
