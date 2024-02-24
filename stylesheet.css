@@ -122,10 +122,10 @@ h2 {/* 赤文字フォントの位置サイズ調整 */
 }
 
 .footer img{ /*toriキャラの設定*/
-  width: 200px; /* 画像の横幅を調整 */
+  width: 400px; /* 画像の横幅を調整 */
   height: auto; /* 高さは自動調整 */
   float: right;
   margin-top: 1px;
   margin-right: 0px;
-  padding-right: 40px;
+  padding-right: 5px;
 }
