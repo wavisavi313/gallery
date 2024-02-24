@@ -9,7 +9,11 @@
  
 .container {
   width: 100%;
-  margin-bottom: 20px; /* 追加 */
+  margin-bottom: 5px; /* 追加 */
+}
+
+.container h1 {
+  margin-bottom: 5px; /* Adjust the bottom margin */
 }
 
 .container details summary {
@@ -18,17 +22,12 @@
   color: white;
   margin: 0 auto; /* 水平方向に中央揃え */
   background-color: black;
+  padding-left: 30px;
   cursor: pointer; /* クリック可能であることを示すカーソルを設定 */
 }
 
 .container details summary::-webkit-details-marker {
   display: none; /* ネイティブの開閉アイコンを非表示にする */
-}
-
-.container2{ /* ARTISTのテキスト調整 */
-  font-size: 200px;
-  color: white;
-  margin-top: 20px; /* 変更 */
 }
 
 .artist-title {
@@ -41,7 +40,7 @@
 
 body { /*項目のサイズ配置調整*/
   margin: 0;
-  font-size:70px;
+  font-size:100px;
   font-family: "Impact", sans-serif;
   background-color: black;
 }
@@ -54,25 +53,35 @@ img {
 
 .container h1, .container details {
   display: inline-block; /* h1要素とdetails要素を横並びにする */
-  margin-right: 20px; /* テキスト間のスペースを調整 */
-  flex-grow: 1; /* 利用可能なスペースを均等に分割 */
+}
+
+.container h1 a{
+  color: white;
+  text-decoration: none;
+  font-size: 200px; /* 全体のテキストサイズを設定 */
+  margin: 5px 0;
 }
 
 .container summary h2 {
   color: red; /* フォントカラーを赤に設定 */
 }
 
-h2 {
+h1 {
+  margin: 0;
+}
+
+h2 {/* 赤文字フォントの位置サイズ調整 */
   margin: 0;
   font-size: 80px;
-  padding-left: 350px;
+  padding-left: 60px;
   float: left;
 }
 
 .container a {
   color: white;
   text-decoration: none;
-  font-size: 50px; /* 全体のテキストサイズを設定 */
+  font-size: 90px; /* 赤字テキストサイズを設定 */
+  padding-left: 30px;
 }
 
 .artistlogo {
@@ -91,7 +100,6 @@ h2 {
   border-radius: 50%; /* 丸く表示するための border-radius */
 }
 
-
 .sota-text{
   font-family: "Impact", sans-serif;
   font-size: 130px;
@@ -108,12 +116,6 @@ h2 {
   width: 85%;
   margin: 0 auto; 
   padding: 1px 50px 1px 0; /* 左側のpaddingを調整 */
-}
-
-h3 a {
-  color:white;
-  text-decoration: none;
-  font-size: 35px;
 }
 
 .footer img{ /*toriキャラの設定*/
