@@ -98,7 +98,7 @@ h2 {/* 赤文字フォントの位置サイズ調整 */
 
 .artistlogo img {
   display: block;
-  width: 100%; /* 親要素に合わせて画像の幅を調整 */
+  width: 90%; /* 親要素に合わせて画像の幅を調整 */
   height: auto; /* 高さは自動調整 */
   border-radius: 50%; /* 丸く表示するための border-radius */
 }
