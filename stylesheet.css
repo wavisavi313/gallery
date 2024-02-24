@@ -18,7 +18,7 @@
 
 .container details summary {
   font-family: "Impact", sans-serif;
-  font-size: 200px;
+  font-size: 150px;
   color: white;
   margin: 0 auto; /* 水平方向に中央揃え */
   background-color: black;
@@ -32,7 +32,7 @@
 
 .artist-title {
   font-family: "Impact", sans-serif;
-  font-size: 200px;
+  font-size: 150px;
   color: white;
   text-align: center;
   margin-top: 50px; /* 適切なマージンを調整してください */
@@ -58,7 +58,7 @@ img {
 .container h1 a{
   color: white;
   text-decoration: none;
-  font-size: 200px; /* 全体のテキストサイズを設定 */
+  font-size: 150px; /* 全体のテキストサイズを設定 */
   margin: 5px 0;
 }
 
