@@ -5,8 +5,6 @@
     <title>WAVISAVI</title>
     <link rel="stylesheet" href="stylesheet.css">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    
-    <link rel="stylesheet" href="scroll.css">
   </head>
 
   <body> 
@@ -15,8 +13,6 @@
       <img src="https://github.com/wavisavi313/gallery/blob/main/fulllogo.png?raw=true">
   </div>
    
-  
-  
     <div class="slideshow-container">  
   
       <div class="mySlides">
@@ -117,30 +113,81 @@
           </div>
         </details>
      
-        <p class ="container2">ARTIST</div>
-      
-      
-      </div>
-   
-    <div class = "artistlogo">
-      <img src="https://github.com/wavisavi313/gallery/blob/main/42W.png?raw=true" alt="Image 1">
+        <div class="container">
+          <details>
+            <summary>ARTIST</summary>
+            <div class="artistlogo">
+              <img src="https://github.com/wavisavi313/gallery/blob/main/42W.png?raw=true" alt="Image 1">
+            </div>
+        
+            <figcaption class="japanese-figcaption">
+              <p class="sota-text">SOTA</p>
+              <p>東京在住のイラストレーターSOTAです。ビビットでカッコ可愛いイラストが得意です。POPな作風にストリートや音楽のカルチャーを取り入れた作品を制作しています。ご依頼等は以下メールアドレスにご連絡下さい。</p>
+              <h3><a href="mailto:7321sota@gmail.com">7321sota@gmail.com</a></h3>
+            </figcaption> 
+        
+            <figcaption class="english-figcaption">
+              <p> Hello, I am SOTA, illustrator living in Tokyo JPN. I specialize in dope and cute illustrations with vivid colors. My workspiece blend street and music culture into POP-style.</p>
+            </figcaption>    
+          </details>
+        </div>
+  <script>
+    // ARTISTをクリックしたときにロゴとキャプションを開閉する関数
+    function toggleArtist() {
+        var artistLogo = document.querySelector('.artistlogo');
+        var japaneseFigcaption = document.querySelector('.japanese-figcaption');
+        var englishFigcaption = document.querySelector('.english-figcaption');
+
+        if (artistLogo.style.display === 'none') {
+            // 表示されていない場合は表示する
+            artistLogo.style.display = 'block';
+            japaneseFigcaption.style.display = 'block';
+            englishFigcaption.style.display = 'block';
+        } else {
+            // 表示されている場合は非表示にする
+            artistLogo.style.display = 'none';
+            japaneseFigcaption.style.display = 'none';
+            englishFigcaption.style.display = 'none';
+        }
+    }
+</script>
+
+<div class="container">
+  <details>
+    <summary>OPEN SEA</summary> 
+    <div class="gallery-container">
+      <h2><a href="https://opensea.io/collection/wabisabi-girl"><span style="color:rgb(234, 36, 76);">WAVISAVI 1-47</span></a></h2>
+          <h2><a href="https://opensea.io/collection/wavisavi"><span style="color:rgb(234, 36, 76);">WAVISAVI 48-</span></a></h2>
     </div>
+  </details>
 
-    <figcaption class = "japanese-figcaption">
-      <p class="sota-text">SOTA</p>
-      <p>東京在住のイラストレーターSOTAです。ビビットでカッコ可愛いイラストが得意です。POPな作風にストリートや音楽のカルチャーを取り入れた作品を制作しています。ご依頼等は以下メールアドレスにご連絡下さい。</p>
-      <h3><a href="mailto:7321sota@gmail.com">7321sota@gmail.com</a></h3>
+<div class="container">
+  <h1><a href="https://twitter.com/sota7321">X</a></h1>
 
-  </figcaption> 
-  
-   <figcaption class = "english-figcaption">
-          <p> Hello, I am SOTA, illustrator living in Tokyo JPN. I specialize in dope and cute illustrations with vivid colors. My workspiece blend street and music culture into POP-style.</p>
-          
-  </figcaption>    
-  </div>
+  <div class="container">
+    <h1><a href="https://instagram.com/sota7321?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">INSTAGRAM</a></h1>  
 
-  <div class="footer">
-    <img src="https://github.com/wavisavi313/gallery/blob/main/tori2.jpg?raw=true">
-  </div>
+  <footer class="footer" id="jumpTop">
+    <img src="https://github.com/wavisavi313/gallery/blob/main/TOPobake.jpg?raw=true">
+</footer> 
 
+ <script>   
+    $('#jumpTop').click(function () {
+            $('html, body').animate({ scrollTop: 0 }, 'slow');
+     });
+
+    $(window).on('load scroll', function() {
+                var windowHeight = $(window).height();
+                var windowScrollTop = $(window).scrollTop();
+                $('.body-img img').each(function() {
+                  var imgOffset = $(this).offset().top;
+                  if (windowScrollTop + windowHeight > imgOffset) {
+                    var imgSrc = $(this).attr('data-src');
+                    $(this).attr('src', imgSrc);
+                    $(this).removeAttr('data-src');
+                  }
+                });
+              });  
+
+</script>
 </body>
