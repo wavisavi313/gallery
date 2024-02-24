@@ -1,5 +1,5 @@
 .header img {
-  width:95%;
+  width:70%;
   height: auto;
   display: block;
   margin: 10px 1px 10px;
@@ -46,10 +46,8 @@ body { /*項目のサイズ配置調整*/
 }
 
 img {
-  max-width: 100%; /* Set maximum width to prevent the image from exceeding the page width */
-  max-height: 100%; /* Set maximum height to prevent the image from exceeding the page height */
-  width: auto; /* Automatically adjust width to maintain aspect ratio */
-  height: auto; /* Automatically adjust height to maintain aspect ratio */
+  width:1200px;
+  padding-left: 30px;
 }
 
 .container h1, .container details {
