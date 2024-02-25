@@ -1,0 +1,37 @@
+.bbs {
+    align-items: center;
+    background: #000000;
+    color: #fff;
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    margin-top: 100px;
+    z-index: 1;
+  }
+  
+  .bbs ul {
+    animation: flowing 50s linear infinite;
+    font-size: 20px;
+    margin: 0;
+    padding:0;
+  }
+  
+  .bbs ul li {
+    display: inline-block;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+  
+  @keyframes flowing {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
